@@ -1,0 +1,26 @@
+{
+  "courses": [
+    {
+      "course": "MSEN 222",
+      "grade": "A",
+      "credits": 3.0
+    },
+    {
+      "course": "ECEN 454",
+      "grade": "A",
+      "credits": 3.0
+    },
+    {
+      "course": "MATH 470",
+      "grade": "C",
+      "credits": 3.0
+    },
+    {
+      "course": "ECEN 449",
+      "grade": "A",
+      "credits": 3.0
+    }
+  ],
+  "current_gpa": 3.0,
+  "current_credits": 94.0
+}
