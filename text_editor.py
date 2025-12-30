@@ -1,6 +1,6 @@
 from tkinter import *
 from tkinter import filedialog, messagebox
-from tkinter import askopenfile, asksaveasfile
+from tkinter.filedialog import askopenfile, asksaveasfile
 
 filename = None
 
@@ -22,7 +22,7 @@ def save_as():
     try:
         f.write(t.rstrip())
     except:
-        messagebox.ABORTshowerror(title="Error", message="Could not save file")
+        messagebox.showerror(title="Error", message="Could not save file")
         
 def open_file():
     f = askopenfile(mode='r')
